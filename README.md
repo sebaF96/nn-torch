@@ -17,7 +17,11 @@ Tambien estaría bueno analizar con mayor detenimiento el output de la red. De e
 Luego podemos ver hasta que punto podemos mejorar lo dicho anteriormente.
 
 ### Como probar localmente?
-Se ha provisto un archivo de las dependencias necesarias para ejecutar la red. Se debe clonar el repositorio e instalar las dependencias en un entorno virtual. Abajo se detallan los pasos a seguir
+Se ha provisto un archivo de las dependencias necesarias para ejecutar la red. Se debe clonar el repositorio e instalar las dependencias en un entorno virtual. Ademas se debe instalar tkinter en el sistema para que python pueda mostrar las imagenes. Abajo se detallan los pasos a seguir
+
+```shell
+$ sudo apt install python3-tk pip3 python3-venv
+```
 
 ```shell
 $ git clone https://github.com/sebaF96/nn-torch.git nn-torch
@@ -32,7 +36,7 @@ $ source venv/bin/activate
 ```
 
 ```shell
-(venv) $ pip install -r requirements.txt
+(venv) $ pip3 install -r requirements.txt
 ```
 
 ```shell
